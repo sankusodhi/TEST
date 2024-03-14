@@ -1,0 +1,10 @@
+const input=require("readline-sync");
+let a=input.questionInt("enter the number");
+let b=input.questionInt("enter the number");
+sum=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+int=Math.floor(a/b);
+mod=a%b;
+console.log(sum,sub,mul,div,int,mod,);
