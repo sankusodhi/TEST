@@ -1,10 +1,13 @@
 const input=require("readline-sync");
 let a=input.questionInt("enter the number");
 let b=input.questionInt("enter the number");
+//a=a+b;
+//b=a-b;
+//a=a-b
 
-if(a>b){
-    greater=a;
-}else{
-    greater=b;
-}
-console.log(greater);
+//a=a+b;
+
+//b=a-b;
+//a = a-b;
+
+console.log(a,b);
