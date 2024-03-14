@@ -1,0 +1,19 @@
+const input=require("readline-sync");
+let n=input.questionInt("enter the number");
+let arr=[n];
+sum=0;
+som=0;
+str="";
+let i;
+for(let i=0;i<n;i++){
+    arr[i]=input.questionInt("enter");
+}
+console.log(arr);
+for(let i=0;i<n;i++){
+    if(arr[i]%2==0){
+        sum=sum+arr[i];
+    }else{
+        som=som+arr[i];
+    }
+}console.log(sum,som);
+
