@@ -1,0 +1,174 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form action="/submit_form" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <h2>Weekly Timetable</h2>
+    <table id="timetable">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td  class="sanku">08:00 - 09:00</td>
+                <td id="monday-8"></td>
+                <td id="tuesday-8"></td>
+                <td id="wednesday-8"></td>
+                <td id="thursday-8"></td>
+                <td id="friday-8"></td>
+                <td id="saturday-8"></td>
+                <td id="sunday-8"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">09:00 - 10:00</td>
+                <td id="monday-9"></td>
+                <td id="tuesday-9"></td>
+                <td id="wednesday-9"></td>
+                <td id="thursday-9"></td>
+                <td id="friday-9"></td>
+                <td id="saturday-9"></td>
+                <td id="sunday-9"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">11:00 - 12:00</td>
+                <td id="monday-10"></td>
+                <td id="tuesday-10"></td>
+                <td id="wednesday-10"></td>
+                <td id="thursday-10"></td>
+                <td id="friday-10"></td>
+                <td id="saturday-10"></td>
+                <td id="sunday-10"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">12:00 - 1:00</td>
+                <td id="monday-11"></td>
+                <td id="tuesday-11"></td>
+                <td id="wednesday-11"></td>
+                <td id="thursday-11"></td>
+                <td id="friday-11"></td>
+                <td id="saturday-11"></td>
+                <td id="sunday-11"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">1:00 - 2:30</td>
+                <td id="monday-12"></td>
+                <td id="tuesday-12"></td>
+                <td id="wednesday-12"></td>
+                <td id="thursday-12"></td>
+                <td id="friday-12"></td>
+                <td id="saturday-12"></td>
+                <td id="sunday-12"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">2:30 - 3:30</td>
+                <td id="monday-13"></td>
+                <td id="tuesday-13"></td>
+                <td id="wednesday-13"></td>
+                <td id="thursday-13"></td>
+                <td id="friday-13"></td>
+                <td id="saturday-13"></td>
+                <td id="sunday-13"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">4:30 - 5:30</td>
+                <td id="monday-14"></td>
+                <td id="tuesday-14"></td>
+                <td id="wednesday-14"></td>
+                <td id="thursday-14"></td>
+                <td id="friday-14"></td>
+                <td id="saturday-14"></td>
+                <td id="sunday-14"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">5:30 - 6:30</td>
+                <td id="monday-15"></td>
+                <td id="tuesday-15"></td>
+                <td id="wednesday-15"></td>
+                <td id="thursday-15"></td>
+                <td id="friday-15"></td>
+                <td id="saturday-15"></td>
+                <td id="sunday-15"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">6:30 - 7:00</td>
+                <td id="monday-16"></td>
+                <td id="tuesday-16"></td>
+                <td id="wednesday-16"></td>
+                <td id="thursday-16"></td>
+                <td id="friday-16"></td>
+                <td id="saturday-16"></td>
+                <td id="sunday-16"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td class="sanku">7:00 - 8:00</td>
+                <td id="monday-17"></td>
+                <td id="tuesday-17"></td>
+                <td id="wednesday-17"></td>
+                <td id="thursday-17"></td>
+                <td id="friday-17"></td>
+                <td id="saturday-17"></td>
+                <td id="sunday-17"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <script src="ss.js"></script>
+</body>
+</html>

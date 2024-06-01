@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>How to aadd onclick to button in javascript</title>
+    <style>
+       .box{
+        color:red;
+       }
+       img{
+        background: size 10px;
+       }
+    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='module5.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="box">
+        Text hello!
+        <img src="gradient-yellow-day-illustration-with-smiley-faces_23-2149418793.avif" alt="">
+    </div>
+        <button onclick="functionname('blue')">Blue</button>
+        <button onclick="functionname('red')">Red</button>
+        <button onclick="functionname('green')">Green</button>
+        <script>
+            function changeColor(){
+                document.querySelector('box').style.color=red;
+            }
+        </script>
+   
+</body>
+</html>

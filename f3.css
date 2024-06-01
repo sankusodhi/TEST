@@ -1,0 +1,18 @@
+body {
+    background: url('https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303525.jpg?w=1380&t=st=1705607469~exp=1705608069~hmac=278471867b312bc0088e9ffac7a2f27addf229e5e57bacefa17334eee38448ad') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.order-summary {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

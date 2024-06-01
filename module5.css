@@ -1,0 +1,13 @@
+img{
+    background-image:cover;
+    height: 90vh;
+    padding: 100px;
+    border-color: brown;
+    border-width: 48px;
+    border-style: solid;
+    
+}
+box{
+    flex-direction: column;
+    align-items: center;
+}
