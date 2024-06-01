@@ -1,0 +1,58 @@
+sanku{
+    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+bulb{
+    width: 15px;
+}
+cat{
+    width: 300px;
+}
+switch-board{
+    width: 29px;
+    height: 13px;
+    background-color: #7b7b7b;
+    border-radius: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 6px;
+}
+switch-status{
+    font-family: Robot;
+    font-weight: 50;
+    font-size: 4px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+off-switch{
+    font-family: Rooto;
+    font-weight: bold;
+    font-size: 4px;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 39px;
+    height: 14px;
+    background-color: #e12d39;
+    
+}
+on-switch{
+    font-family: Robot;
+    font-weight: bold;
+    font-size: 4px;
+    color: #ffffff;
+    border-radius:8px;
+    width: 39px;
+    height: 4px;
+    margin-left: 6px;
+    background-color: #e12d39;
+}
+sodhi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
